@@ -1,0 +1,73 @@
+#Texter {
+        -fx-fill: rgba(55,155,210,0.7);
+}
+#Header {
+        -fx-fill: rgba(70,70,70,0.9);
+}
+#Title {
+        -fx-fill: rgba(225,225,225,0.9);
+}
+#Biomass {
+        -fx-fill: rgba(0,255,0,0.9);
+}
+#Geothermal {
+        -fx-fill: rgba(250,100,50,0.9);
+}
+#Gas {
+        -fx-fill: rgba(50,250,200,0.9);
+}
+#Solar {
+        -fx-fill: rgba(255,255,0,0.9);
+}
+#Wind {
+        -fx-fill: rgba(150,150,150,0.9);
+}
+#Nuclear {
+        -fx-fill: rgba(255,200,0,0.9);
+}
+#Exotic {
+        -fx-fill: rgba(250,50,250,0.9);
+}
+#Hydroelectric {
+        -fx-fill: rgba(0,100,200,0.9);
+}
+#SmallButton {
+ -fx-text-effect: bloom;
+   -fx-font-size: 20px;
+}
+#SmallButton:hover {
+   -fx-font-size: 25px;
+   -fx-text-fill: #3ac6ef;
+}
+#SmallTexter {
+   -fx-font-size: 20px;
+}
+#SmallHeader {
+   -fx-font-size: 20px;
+   -fx-text-fill: #3ac6ef;
+}
+#PhotoButton {
+  -fx-text-effect: bloom;
+ -fx-border-color: transparent;
+ -fx-border-width: 5px;
+}
+#PhotoButton:hover {
+    -fx-text-fill: derive(#3ac6ef,-20%);
+ -fx-border-color: derive(#3ac6ef,70%);
+}
+#Informant {
+    -fx-font-size: 20px;
+}
+.scroll-bar:vertical .track,
+.scroll-bar:horizontal .track{
+        -fx-border-color: rgba(225,225,225,0.9);
+}
+.scroll-bar:vertical .thumb,
+.scroll-bar:horizontal .thumb {
+    -fx-background-color: rgba(225,225,225,0.9);
+}
+.scroll-bar:vertical .thumb:hover,
+.scroll-bar:horizontal .thumb:hover{
+    -fx-background-color: #3ac6ef;
+        -fx-border-color: rgba(225,225,225,0.9);
+}
